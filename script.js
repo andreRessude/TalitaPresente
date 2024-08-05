@@ -33,8 +33,6 @@ function showProfile(data) {
     });
 }
 
-
-
 // Function to change the number of columns in the grid
 // function setGridColumns(columns) {
 //     const gallery = document.getElementById('gallery-grid');
