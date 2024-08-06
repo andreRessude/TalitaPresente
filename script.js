@@ -22,7 +22,7 @@ function showProfile(data) {
         item.className = 'gallery-item';
 
         const img = document.createElement('img');
-        img.src = `./images/profile/student${info.id}/student.png`;
+        img.src = `./images/profile/student${info.id}.jpeg`;
         img.alt = `Foto do(a) aluno(a) ${info.name}`;
         item.appendChild(img);
         item.addEventListener("click", () => {
